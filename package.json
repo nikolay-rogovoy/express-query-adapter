@@ -1,0 +1,18 @@
+{
+  "name": "pl-express-query-adapter",
+  "version": "0.0.3",
+  "type": "commonjs",
+  "scripts": {
+    "tsc": "tsc",
+    "tsc-w": "tsc -w",
+    "build": "rm -rf dist && npm run tsc && node tools/copy.js",
+    "publish": "cd dist && npm publish"
+  },
+  "dependencies": {
+    "typeorm": "^0.3.17",
+    "typescript": "^5.1.6"
+  },
+  "devDependencies": {
+    "@types/node": "^18.17.1"
+  }
+}
